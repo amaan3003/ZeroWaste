@@ -4,7 +4,7 @@ A simple **AI-based** application designed to combat household food waste by gen
 [**WORK IN PROGRESS**]
 
 ## 🚀 Overview
-This project focuses on sustainability by helping users utilize items that would otherwise go to waste. It leverages **local LLMs** to ensure 100% data privacy and zero reliance on expensive cloud APIs.
+This project focuses on sustainability by helping users utilize items that would otherwise go to waste. It leverages **local LLMs** to ensure 100% data privacy and zero reliance on expensive cloud APIs as it is a personal project and I can't afford any of those!
 
 ## 🛠️ Tech Stack
 - **Language:** Python
@@ -12,11 +12,7 @@ This project focuses on sustainability by helping users utilize items that would
 - **AI Engine:** Ollama (Local LLM Infrastructure)
 - **Model:** Dolphin3 (LLM model)
 
-## ✨ Key Features
-- **Smart Suggestions:** Input available ingredients and get instant recipe ideas.
-- **Privacy First:** All AI processing happens locally on your machine via Ollama.
-- **Sustainability Focus:** Custom logic to prioritize perishable items.
-- **Low Latency:** Optimized for fast, local inference without internet dependencies.
+
 
 ## ⚙️ Setup & Installation
 
