@@ -28,3 +28,26 @@ if generateButton:
         st.write("Analyzing ingredients...")
         st.write("Contacting LLM...")
         status.update(label="Recipes Ready!", state="complete", expanded=False)
+
+
+def parse_ingredients(input_str):
+    
+    if not input_str.strip():
+        return [], []
+ 
+ 
+    items = [item.strip() for item in input_str.split(",")]
+    urgent = []
+    normal = []
+    
+    for item in items:
+        if ":" in item:
+            try:
+                name, days = item.split(":")
+                urgent.append(f"{name} (expires in {days} days)")
+            except:
+                normal.append(item)
+        else:
+            normal.append(item)
+            
+    return urgent, normal
