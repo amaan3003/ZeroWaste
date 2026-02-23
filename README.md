@@ -1,6 +1,7 @@
 # 🥗 Zero-Waste Meal Improviser
 
 A simple **AI-based** application designed to combat household food waste by generating creative, nutritious recipes based on leftover ingredients found in your pantry.
+[**WORK IN PROGRESS**]
 
 ## 🚀 Overview
 This project focuses on sustainability by helping users utilize items that would otherwise go to waste. It leverages **local LLMs** to ensure 100% data privacy and zero reliance on expensive cloud APIs.
