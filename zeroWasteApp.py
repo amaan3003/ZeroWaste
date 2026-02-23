@@ -27,4 +27,4 @@ if generateButton:
     with st.status("Dolphin is analyzing...", expanded=True) as status:
         st.write("Analyzing ingredients...")
         st.write("Contacting LLM...")
-        status.update(label="Recipes Ready!", state="complete", expanded=False)g
+        status.update(label="Recipes Ready!", state="complete", expanded=False)
